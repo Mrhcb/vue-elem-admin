@@ -1,0 +1,34 @@
+.el-button-block {
+    display: block;
+    width: 100%;
+}
+#layout-aside .el-menu {
+    border-right: none;
+}
+/* 导航菜单高亮 */
+.is-active { background-color: rgba(254, 108, 108, .2) !important; }
+.is-opened {
+    .el-sub-menu__title { background-color: #f56c6c !important; }
+}
+.el-form-item__content { display: block; }
+/*上传组件*/
+.avatar-uploader {
+    overflow: hidden;
+    img { width: 100%; }
+    .el-upload {
+        border: 1px dashed #d9d9d9;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+}
+/* 日期组件 z-index */
+.el-popper { z-index: 10002 !important; }
+.va-top { vertical-align: top; }
